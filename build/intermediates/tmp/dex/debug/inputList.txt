@@ -1,0 +1,13 @@
+/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/classes/debug
+/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-2c0376c0ca7ebb5f56d7ad670dcdf9355816d6e1.jar
+/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/classes-fe38af377ce2a0f3961fb6c33552b9f613bb2a94.jar
+/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/jackson-annotations-2.3.0-ea157e2cc003087e6fff5c91920f19b04beacfd5.jar
+/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/butterknife-6.1.0-66b8bdb71f798c906033353e72d8c9b000c645c9.jar
+/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/spring-android-core-2.0.0.M1-89f87c381fbffbbc00aa127bd4346c57d32bc7fa.jar
+/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/spring-android-rest-template-2.0.0.M1-b9280f28b9b160900042afd77f2babec0c46d985.jar
+/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-673ec676cfcfc88ecd8f068d0e89f35b06b2cb70.jar
+/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/classes-38a5d0f19f1e7cab90d141c4e772b2f42dd37e69.jar
+/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/jackson-core-2.3.2-91aa419b97fe92333af1e5f217515cf417f2e2ed.jar
+/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/classes-d85dc11b293ce4afb02dc5b388589d7a1d66de60.jar
+/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/classes-2e6f6b8c61d00d772e22f41ce49c97289060f434.jar
+/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/jackson-databind-2.3.2-0625e8d4f9bd23a06c51fdc37419c82ebadb48e6.jar

@@ -1,0 +1,72 @@
+buildscript {
+    repositories {
+        mavenCentral()
+	
+    }
+    dependencies {
+         classpath 'com.android.tools.build:gradle:1.0.0'
+     }
+}
+
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven { url 'http://repo.spring.io/milestone' }
+}
+
+apply plugin: 'android'
+apply plugin: 'eclipse'
+
+configurations {
+    ajc
+    aspects
+}
+
+android {
+
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "se.speedle.android"
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1"
+    }
+
+    packagingOptions {
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+}
+
+
+
+dependencies {
+    ajc "org.aspectj:aspectjtools:1.7.3"
+
+    compile 'org.springframework.android:spring-android-rest-template:2.0.0.M1'
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support:support-v4:21.0.3'
+    compile 'com.android.support:recyclerview-v7:21.0.+'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.3.2'
+    compile 'com.jakewharton:butterknife:6.1.0'
+    compile 'me.alexrs:recyclerview-renderers:1.0.3'
+    aspects 'org.robobinding:robobinding:0.8.9'
+
+}
+
+
+android {
+    buildToolsVersion "21.1.2"
+    compileSdkVersion 21
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.2.1'
+}
+

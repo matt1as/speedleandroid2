@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/classes-38a5d0f19f1e7cab90d141c4e772b2f42dd37e69.jar" />
+    </item>
+    <item
+        jar="/Users/Mattias/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.3.0/f5e853a20b60758922453d56f9ae1e64af5cb3da/jackson-annotations-2.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f5e853a20b60758922453d56f9ae1e64af5cb3da">
+        <dex dex="/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/jackson-annotations-2.3.0-ea157e2cc003087e6fff5c91920f19b04beacfd5.jar" />
+    </item>
+    <item
+        jar="/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/classes-d85dc11b293ce4afb02dc5b388589d7a1d66de60.jar" />
+    </item>
+    <item
+        jar="/Users/Mattias/.gradle/caches/modules-2/files-2.1/org.springframework.android/spring-android-rest-template/2.0.0.M1/6abb1e22445a4e4571c74632804e4179b43d82b5/spring-android-rest-template-2.0.0.M1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6abb1e22445a4e4571c74632804e4179b43d82b5">
+        <dex dex="/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/spring-android-rest-template-2.0.0.M1-b9280f28b9b160900042afd77f2babec0c46d985.jar" />
+    </item>
+    <item
+        jar="/Users/Mattias/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-2c0376c0ca7ebb5f56d7ad670dcdf9355816d6e1.jar" />
+    </item>
+    <item
+        jar="/Users/Mattias/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.3.2/c75edc740a6d8cb1cef6fa82fa594e0bce561916/jackson-databind-2.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c75edc740a6d8cb1cef6fa82fa594e0bce561916">
+        <dex dex="/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/jackson-databind-2.3.2-0625e8d4f9bd23a06c51fdc37419c82ebadb48e6.jar" />
+    </item>
+    <item
+        jar="/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/classes-2e6f6b8c61d00d772e22f41ce49c97289060f434.jar" />
+    </item>
+    <item
+        jar="/Users/Mattias/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/butterknife-6.1.0-66b8bdb71f798c906033353e72d8c9b000c645c9.jar" />
+    </item>
+    <item
+        jar="/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/exploded-aar/me.alexrs/recyclerview-renderers/1.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f044100287fe55aad08aa684ce7bee521b2274e8">
+        <dex dex="/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/classes-fe38af377ce2a0f3961fb6c33552b9f613bb2a94.jar" />
+    </item>
+    <item
+        jar="/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-673ec676cfcfc88ecd8f068d0e89f35b06b2cb70.jar" />
+    </item>
+    <item
+        jar="/Users/Mattias/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.3.2/559b70ac8a0d5cad611da4223137a920147201ba/jackson-core-2.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="559b70ac8a0d5cad611da4223137a920147201ba">
+        <dex dex="/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/jackson-core-2.3.2-91aa419b97fe92333af1e5f217515cf417f2e2ed.jar" />
+    </item>
+    <item
+        jar="/Users/Mattias/.gradle/caches/modules-2/files-2.1/org.springframework.android/spring-android-core/2.0.0.M1/26b2d3262a0c5f8de663deeb6481d132d871fffa/spring-android-core-2.0.0.M1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="26b2d3262a0c5f8de663deeb6481d132d871fffa">
+        <dex dex="/Users/Mattias/Documents/Projects/speedle/speedleandroid/build/intermediates/pre-dexed/debug/spring-android-core-2.0.0.M1-89f87c381fbffbbc00aa127bd4346c57d32bc7fa.jar" />
+    </item>
+
+</items>
