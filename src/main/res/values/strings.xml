@@ -1,7 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Speedle</string>
-    <string name="hello_blank_fragment">Hello</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
+    <string name="image_description">Image</string>
+    <string name="title_activity_edit_details">EditDetailsActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="facebook_app_id">334648210018659</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_login">Login</string>
+
+    <!-- general purpose strings -->
+    <string name="empty.string" translatable="false">empty</string>
+    <string name="empty.number" translatable="false">000</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="user_settings">Settings</string>
+    <string name="title_section3" translatable="false">GPS</string>
+    <string name="favorites">Favourites</string>
+    <string name="favourites_fragment_title">Favourites</string>
+    <string name="my_ads">My Ads</string>
+    <string name="navigation_drawer_account_settings">Account</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Update</string>
+    <string name="logintext">Please sign in to continue!</string>
+    <string name="hello_blank_fragment" translatable="false">Empty fragment</string>
+    <string name="loading">Data is loading..</string>
+    <string name="title_activity_test" translatable="false">Speedle</string>
+
+    <!-- fragment_edit_classifieds -->
+    <string name="fragment_edit_classifieds_textview_tip">Tap on image to take a photo</string>
+    <string name="my_items">My Items</string>
+    <string name="settings">Settings</string>
+    <string name="help_and_feedback">Help &amp; feedback</string>
+    <string name="logout">Logout</string>
+    <string name="description_search">Search</string>
+    <string name="description_view_switch">Switch list/grid</string>
+
+    <!-- fragment_user_settings -->
+    <string name="fragment_user_settings_photos_header">Photos</string>
+    <string name="fragment_user_settings_photos_text">Save original photos</string>
+    <string name="fragment_user_settings_notifications_header">Notifications</string>
+    <string name="fragment_user_settings_notifications_text">Show push notifications</string>
+    <string name="fragment_user_settings_gps_header">Search settings</string>
+    <string name="fragment_user_settings_gps_radius">Search Radius</string>
+    <string name="fragment_user_settings_gps_time">GPS time update</string>
+    <string name="fragment_user_settings_user_account">User account</string>
+    <string name="fragment_user_settings_name">Full name</string>
+    <string name="fragment_user_settings_phone">Phone</string>
+    <string name="fragment_user_settings_email">Email</string>
+    <string name="fragment_user_settings_currency">Currency</string>
+
+    <!-- fragment_edit_classifieds -->
+    <string name="fragment_edit_classifieds_hint_title">Title</string>
+    <string name="fragment_edit_classifieds_hint_description">Description</string>
+    <string name="fragment_edit_classifieds_hint_price">Price</string>
+    <string name="fragment_edit_classifids_hint_fullname">Full name</string>
+    <string name="fragment_edit_classifieds_phone">Phone</string>
+    <string name="fragment_edit_classifieds_email">Email</string>
+    <string name="fragment_edit_classifieds_button_preview">Preview</string>
+    <string name="fragment_edit_classifieds_fullname_field_error">Check your name</string>
+    <string name="fragment_edit_classifieds_phone_field_error">Check your phone</string>
+    <string name="fragment_edit_classifieds_email_field_error">Check your email</string>
+    <string name="fragment_edit_classifieds_price_field_error">Check the price</string>
+    <string name="fragment_edit_classifieds_title_field_error">Check the title</string>
+    <string name="fragment_edit_classifieds_description_field_error">Check the description</string>
+
+
+    <!-- show_classifieds -->
+    <string name="show_classifieds_dialog_title">Connect with seller</string>
+    <string name="show_classifieds_dialog_email_action">Email to seller</string>
+    <string name="show_classifieds_dialog_email_text" translatable="false">This message created from this</string>
+    <string name="show_classifieds_dialog_email_text_2" translatable="false">offer</string>
+    <string name="show_classifieds_dialog_email_domain" translatable="false">api.speedle.se/classifieds/</string>
+
+
+    <!-- Strings related to Settings -->
+    <string name="title_activity_account">Account settings</string>
+
+    <!-- Example General settings -->
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <!-- logout -->
+    <string name="logout_negative_button">Cancel</string>
+    <string name="logout_title">Confirm logout</string>
+    <string name="logout_message">Are you sure you want to logout?</string>
+    <string name="logout_confirm">Log out</string>
+
+    <!-- other -->
+    <string name="categories_all">All</string>
+    <string name="settings_minutes">minutes</string>
+    <string name="title_activity_search" translatable="false">SearchActivity</string>
+    <string name="title_activity_settings" translatable="false">SettingsActivity</string>
+    <string name="title_activity_classified" translatable="false">Show Classified Activity</string>
+    <string name="title_activity_help_feedback" translatable="false">HelpFeedbackActivity</string>
+    <string name="title_activity_edit_classified" translatable="false">EditClassifiedActivity</string>
+    <string name="dialog_edit_image_gallery">Gallery</string>
+    <string name="dialog_edit_image_camera">Camera</string>
+    <string name="fragment_edit_classifieds_hint_tags">#tags</string>
+    <string name="fragment_edit_classifieds_dialog_edit_image_title">Edit image</string>
+    <string name="fragment_edit_classifieds_toolbar_title_new">Create new ad</string>
+    <string name="fragment_edit_classifieds_toolbar_title_edit">Edit your ad</string>
+    <string name="fragment_edit_classifieds_open_gallery_intent">Select Picture</string>
+    <string name="fragment_edit_classifieds_toast_preview_empty_fields">Fill all fields to proceed</string>
+    <string name="fragment_my_items_title">My items</string>
+    <string name="fragment_my_items_dialog_delete_confirm">Delete</string>
+    <string name="fragment_my_items_dialog_delete_cancel">Cancel</string>
+    <string name="fragment_fb_please_login">Please log in to continue</string>
+
+    <string name="fragment_my_items_dialog_delete_message">Do you want to delete this item?</string>
+    <string name="location_settings">Speedle needs your location to be able to find the best ads. Please allow us to access them to continue</string>
+    <string name="btn_continue">Continue</string>
+
 </resources>

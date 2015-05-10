@@ -5,23 +5,23 @@ package com.bryderi.speedle.android;
 ** using compatibility fragments and support actionbar
 */
 
-        import android.content.Context;
-        import android.os.Bundle;
-        import android.support.v4.app.Fragment;
-        import android.support.v4.app.FragmentActivity;
-        import android.support.v4.app.FragmentManager;
-        import android.support.v4.widget.DrawerLayout;
-        import android.support.v7.app.ActionBar;
-        import android.support.v7.app.ActionBarActivity;
-        import android.support.v7.app.ActionBarDrawerToggle;
-        import android.support.v7.widget.Toolbar;
-        import android.util.AttributeSet;
-        import android.view.View;
-        import android.widget.AdapterView;
-        import android.widget.ArrayAdapter;
-        import android.widget.ListView;
+import android.content.Context;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.widget.Toolbar;
+import android.util.AttributeSet;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
-        import java.util.ArrayList;
+import java.util.ArrayList;
 
 public class FragmentNavigationDrawer extends DrawerLayout {
     private ActionBarDrawerToggle drawerToggle;
@@ -50,6 +50,7 @@ public class FragmentNavigationDrawer extends DrawerLayout {
         drawerAdapter = new ArrayAdapter<String>(getActivity(), drawerItemRes,
                 new ArrayList<String>());
         this.drawerContainerRes = drawerContainerRes;
+
         // Setup drawer list view and related adapter
         lvDrawer = drawerListView;
         // Setup toolbar
@@ -62,8 +63,8 @@ public class FragmentNavigationDrawer extends DrawerLayout {
         drawerToggle = setupDrawerToggle();
         setDrawerListener(drawerToggle);
         // Setup action buttons
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        //getSupportActionBar().setHomeButtonEnabled(true);
     }
 
     // addNavItem("First", "First Fragment", FirstFragment.class)
@@ -115,7 +116,15 @@ public class FragmentNavigationDrawer extends DrawerLayout {
     }
 
     private void setTitle(CharSequence title) {
-        getSupportActionBar().setTitle(title);
+        toolbar.setTitle(title);
+    }
+
+    private ActionBarDrawerToggle setupDrawerToggle() {
+        return new ActionBarDrawerToggle(getActivity(), this, toolbar, R.string.drawer_open, R.string.drawer_close);
+    }
+
+    public boolean isDrawerOpen() {
+        return isDrawerOpen(lvDrawer);
     }
 
     private class FragmentDrawerItemListener implements ListView.OnItemClickListener {
@@ -151,13 +160,5 @@ public class FragmentNavigationDrawer extends DrawerLayout {
         public Bundle getFragmentArgs() {
             return fragmentArgs;
         }
-    }
-
-    private ActionBarDrawerToggle setupDrawerToggle() {
-        return new ActionBarDrawerToggle(getActivity(), this, toolbar, R.string.drawer_open, R.string.drawer_close);
-    }
-
-    public boolean isDrawerOpen() {
-        return isDrawerOpen(lvDrawer);
     }
 }

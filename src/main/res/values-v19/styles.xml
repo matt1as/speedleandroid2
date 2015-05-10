@@ -1,0 +1,60 @@
+<resources>
+
+    <style name="SpeedleTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+
+    </style>
+
+    <!--
+        Default text sizes:
+        <style name="TextAppearance.Large">
+            <item name="android:textSize">22sp</item>
+        </style>
+
+        <style name="TextAppearance.Medium">
+            <item name="android:textSize">18sp</item>
+        </style>
+
+        <style name="TextAppearance.Small">
+            <item name="android:textSize">14sp</item>
+            <item name="android:textColor">?textColorSecondary</item>
+        </style>
+    -->
+
+
+    <!-- Text styles -->
+
+    <style name="Header" parent="TextAppearance.AppCompat.Large">
+
+    </style>
+
+    <style name="Header.Settings">
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:paddingTop">@dimen/double_padding</item>
+        <item name="android:paddingBottom">@dimen/double_padding</item>
+        <!--            android:paddingTop="@dimen/double_padding"
+            android:paddingBottom="@dimen/double_padding"-->
+    </style>
+
+
+    <style name="Text" parent="TextAppearance.AppCompat.Small">
+
+    </style>
+
+    <style name="Text.Settings">
+        <item name="android:padding">@dimen/default_padding</item>
+    </style>
+
+    <style name="EditTextSettings">
+        <item name="android:selectAllOnFocus">true</item>
+    </style>
+
+    <style name="Text.Error">
+        <item name="android:textColor">@color/red_error</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+
+    <style name="Text.Error.EditClassifieds">
+        <item name="android:visibility">gone</item>
+    </style>
+
+</resources>

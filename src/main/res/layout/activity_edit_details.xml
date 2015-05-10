@@ -1,0 +1,209 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="se.speedle.android.activity.EditClassifiedActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:measureWithLargestChild="false"
+            android:orientation="vertical"
+            android:padding="@dimen/default_padding">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <FrameLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/fragment_edit_classifieds_imageview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_image"
+                        android:clickable="true"
+                        android:contentDescription="@string/image_description"
+                        android:minHeight="120dp" />
+
+                    <!--ImageButton
+                        android:id="@+id/edit_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|right"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_camera_white_24dp"
+                        android:padding="@dimen/default_padding"
+                        /-->
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/default_padding">
+
+                    <TextView
+                        android:id="@+id/fragment_edit_classifieds_fullname_error"
+                        style="@style/Text.Error.EditClassifieds"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fragment_edit_classifieds_fullname_field_error" />
+
+                    <EditText
+                        android:id="@+id/fragment_edit_classifieds_fullname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/rounded_input_field"
+                        android:hint="@string/fragment_edit_classifids_hint_fullname" />
+
+                    <TextView
+                        android:id="@+id/fragment_edit_classifieds_phone_error"
+                        style="@style/Text.Error.EditClassifieds"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fragment_edit_classifieds_phone_field_error"
+
+                        />
+
+                    <EditText
+                        android:id="@+id/fragment_edit_classifieds_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/rounded_input_field"
+                        android:hint="@string/fragment_edit_classifieds_phone"
+
+                        android:inputType="phone" />
+
+                    <TextView
+                        android:id="@+id/fragment_edit_classifieds_email_error"
+                        style="@style/Text.Error.EditClassifieds"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fragment_edit_classifieds_email_field_error"
+
+                        />
+
+                    <EditText
+                        android:id="@+id/fragment_edit_classifieds_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/rounded_input_field"
+                        android:hint="@string/fragment_edit_classifieds_email"
+
+                        android:inputType="textEmailAddress" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/fragment_edit_classifieds_price_error"
+                style="@style/Text.Error.EditClassifieds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:text="@string/fragment_edit_classifieds_price_field_error" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Spinner
+                    android:id="@+id/currency_symbol"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="@dimen/default_padding"
+                    android:background="@drawable/rounded_input_field" />
+
+                <EditText
+                    android:id="@+id/fragment_edit_classifieds_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/rounded_input_field"
+                    android:hint="@string/fragment_edit_classifieds_hint_price"
+                    android:inputType="numberDecimal" />
+
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/categories"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_input_field" />
+
+
+            <TextView
+                android:id="@+id/fragment_edit_classifieds_title_error"
+                style="@style/Text.Error.EditClassifieds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fragment_edit_classifieds_title_field_error"
+
+                />
+
+            <EditText
+                android:id="@+id/fragment_edit_classifieds_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_input_field"
+                android:hint="@string/fragment_edit_classifieds_hint_title" />
+
+            <TextView
+                android:id="@+id/fragment_edit_classifieds_description_error"
+                style="@style/Text.Error.EditClassifieds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fragment_edit_classifieds_description_field_error"
+
+                />
+
+            <EditText
+                android:id="@+id/fragment_edit_classifieds_description"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rounded_input_field"
+                android:gravity="top"
+                android:hint="@string/fragment_edit_classifieds_hint_description"
+                android:lines="10"
+                android:linksClickable="true" />
+
+            <Button
+                android:id="@+id/preview_classified_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/default_padding"
+                android:background="@drawable/rounded_input_field"
+                android:minWidth="200dp"
+                android:text="@string/fragment_edit_classifieds_button_preview"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

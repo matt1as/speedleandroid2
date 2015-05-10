@@ -20,6 +20,10 @@ public class ClassifiedRenderer extends Renderer {
     @Override
     public RenderViewHolder onCreateViewHolder(ViewGroup viewGroup, int id) {
         View itemView = LayoutInflater.from(viewGroup.getContext()).inflate(id, viewGroup, false);
+        //itemView.setOnClickListener(this);
+
         return new ViewHolderClassified(itemView);
     }
+
+
 }

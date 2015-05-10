@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="grid_view_column_width">80dp</dimen>
+
+    <integer name="camera_photo_default_size">1024</integer>
+
+    <dimen name="default_padding">8dp</dimen>
+    <dimen name="double_padding">16dp</dimen>
+    <dimen name="classified_fab_height">56dp</dimen>
+    <dimen name="nav_drawer_width">304dp</dimen>
+    <!--with padding-->
+
+</resources>

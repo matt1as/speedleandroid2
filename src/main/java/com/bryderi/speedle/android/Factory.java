@@ -8,11 +8,11 @@ import me.alexrs.recyclerviewrenderers.renderer.Renderer;
 /**
  * Created by Mattias on 12/04/15.
  */
-public class Factory implements RendererFactory{
+public class Factory implements RendererFactory {
     @Override
     public Renderer getRenderer(int id) {
         switch (id) {
-            case R.layout.fragment_splash:
+            case R.layout.classified:
                 return new ClassifiedRenderer(id);
 
         }

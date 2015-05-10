@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="se.speedle.android.activity.ClassifiedActivity">
+    <!-- The ActionBar -->
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_main_color"
+        android:minHeight="?attr/actionBarSize">
+
+
+        <ImageView
+            android:id="@+id/fragment_classified_details_backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:src="@drawable/ic_arrow_back_white_24dp"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/fragment_classified_details_editbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_action_edit"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/fragment_classified_details_favbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_favorite_outline_white_24dp"
+            android:visibility="visible" />
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <com.bryderi.speedle.android.layouts.SquareImageView
+        android:id="@+id/fragment_show_classifieds_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ccc"
+        android:clickable="true"
+        android:contentDescription="@string/image_description"
+        android:maxHeight="320dp"
+        android:minHeight="320dp"
+        android:minWidth="320dp" />
+
+    <LinearLayout
+        android:id="@+id/description_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingTop="16dp">
+
+
+        <TextView
+            android:id="@+id/fragment_show_classifieds_title"
+            style="@android:style/TextAppearance.DeviceDefault.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="72dp"
+            android:layout_marginRight="24dp"
+            android:autoText="true"
+            android:text="@string/empty.string"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/fragment_show_classifieds_tags"
+            style="@style/Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="72dp"
+            android:layout_marginRight="24dp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/app_main_color"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/fragment_show_classifieds_categories"
+            style="@android:style/TextAppearance.DeviceDefault"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="72dp"
+            android:layout_marginRight="24dp"
+            android:text="Categories" />
+
+        <TextView
+            android:id="@+id/fragment_show_classifieds_description"
+            style="@android:style/TextAppearance.DeviceDefault"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="72dp"
+            android:layout_marginRight="24dp"
+            android:text="Description" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
